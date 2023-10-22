@@ -33,6 +33,8 @@ p {
     margin: 15px 0 20px 0;
 }
 
+/* HOMEPAGE */
+
 .section-p1 {
     padding: 40px 80px;
 }
@@ -750,4 +752,23 @@ footer .copyright {
     footer .copyright {
         text-align: start;
     }
+}
+
+
+/* SHOP PAGE */
+#page-header {
+    background-image: url(img/banner/b1.jpg);
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 14px;
+
+}
+
+#page-header h2, #page-header p {
+    color: #fff;
 }
