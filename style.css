@@ -756,6 +756,8 @@ footer .copyright {
 
 
 /* SHOP PAGE */
+
+/* Header */
 #page-header {
     background-image: url(img/banner/b1.jpg);
     height: 40vh;
@@ -771,4 +773,22 @@ footer .copyright {
 
 #page-header h2, #page-header p {
     color: #fff;
+}
+
+/* Pagination */
+#pagination {
+    text-align: center;
+}
+
+#pagination a {
+    text-decoration: none;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+
+#pagination .right-arrow {
+    padding: 15px 15px;
 }
