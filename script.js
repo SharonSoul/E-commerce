@@ -13,3 +13,23 @@ if(close) {
         nav.classList.remove('active')
     })
 }
+
+// Single Products
+let mainImg = document.querySelector('#main-img')
+let smallImg = document.querySelectorAll('.small-img')
+
+smallImg[0].addEventListener('click', function(e) {
+    mainImg.src = smallImg[0].src
+})
+
+smallImg[1].addEventListener('click', function(e) {
+    mainImg.src = smallImg[1].src
+})
+
+smallImg[2].addEventListener('click', function(e) {
+    mainImg.src = smallImg[2].src
+})
+
+smallImg[3].addEventListener('click', function(e) {
+    mainImg.src = smallImg[3].src
+})
