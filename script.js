@@ -33,3 +33,10 @@ smallImg[2].addEventListener('click', function(e) {
 smallImg[3].addEventListener('click', function(e) {
     mainImg.src = smallImg[3].src
 })
+
+// Link Shop imgs to single page details
+// let singlePro = document.querySelector('#single-product')
+// singlePro.addEventListener('click', function(e) {
+//     window.location.href="sproduct.html"
+//     console.log("YEYYYYYYYYY")
+// })
